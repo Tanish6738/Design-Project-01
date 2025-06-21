@@ -26,7 +26,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="relative bg-gradient-to-b from-transparent via-black/80 to-black border-t border-white/10">
+    <footer className="bg-black">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 left-1/2 transform -translate-x-1/2 w-96 h-96 bg-[var(--color-primary)]/5 rounded-full blur-3xl" />

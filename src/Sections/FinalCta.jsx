@@ -5,9 +5,9 @@ const FinalCta = () => {
   return (
     <section
     id='final-cta'
-    className="relative min-h-screen w-full flex items-center justify-center overflow-hidden">
+    className="theme-bg relative min-h-screen w-full flex items-center justify-center overflow-hidden">
       {/* Section-specific Background Video */}
-      <div className="absolute inset-0 w-full h-full z-[-1]">
+      {/* <div className="absolute inset-0 w-full h-full z-[-1]">
         <video 
           src="/Videos/element.mp4" 
           autoPlay 
@@ -17,7 +17,7 @@ const FinalCta = () => {
           className="w-screen h-screen object-cover"
         />
         <div className="absolute inset-0 bg-black/40" />
-      </div>
+      </div> */}
 
       {/* Main Content */}
       <div className="z-10 w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 py-16 sm:py-20 md:py-24">
